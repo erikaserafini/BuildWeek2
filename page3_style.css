@@ -1,0 +1,68 @@
+#logo {
+  max-height: 50px;
+  max-width: 100px;
+}
+
+.smaller-image {
+  max-height: 250px;
+}
+
+.almost-top {
+  top: 10px;
+}
+
+.max-width-fixed {
+  max-width: 400px;
+}
+
+#dates-box {
+  border-radius: 16px;
+  max-height: 300px;
+}
+
+.box-shadow {
+  box-shadow: 8px 8px 24px 8px lightgray;
+}
+
+.booking-cancel-button {
+  border-radius: 16px;
+  background-color: rgb(255, 56, 92);
+  border: none;
+}
+
+#star-icon {
+  color: rgb(255, 56, 92);
+}
+
+.input-date {
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  #date-right {
+    border-left: 0px;
+    border-top: 1px solid black;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #date-right {
+    border-left: 1px solid black;
+    border-top: 0px;
+  }
+}
+
+#review-container {
+  height: 120px;
+  position: relative;
+}
+
+#review::placeholder {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.icons {
+  font-size: 30px;
+}
